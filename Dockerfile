@@ -1,4 +1,4 @@
-FROM centos7
+FROM centos:7
 LABEL version="1.0"  
 LABEL maintainer="hanafeevrus@gmail.com"
 RUN yum update && yum upgrade && yum install -y curl
