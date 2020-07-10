@@ -27,9 +27,12 @@
 #запускает yarn
 `CMD cd /etc/flatris/ && yarn start`    
 
-####Запуск    
+#### Запуск    
 * скачиваете контейнер    
 `docker pull hanafeevrus/centos7_flatris`   
 * запускаем контейнер и делаем проброс порта 3000   
 `docker run -p 3000:3000 hanafeevrus/centos7_flatris`   
+* проверка в браузере https://localhost:3000    
 
+
+![screen](https://github.com/Hanafeevrus/flatris_on_docker/blob/master/photoeditorsdk-export%20(6).png)
